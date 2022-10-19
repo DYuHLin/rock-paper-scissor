@@ -38,9 +38,15 @@ function playRound(playerOption, computerOption){
     }
 }
 
-// playerOption = prompt("Choose between rock, paper or scissors: ").toLocaleLowerCase()
-// getComputerChoice()
-
-// console.log(playRound(playerOption, computerOption))
-
 //the game function loops the game until either the user or computer reach a score of 5
+
+function game(){
+    for(i = 0; i < 5; i++){
+        playerOption = prompt("Choose between rock, paper or scissors: ").toLocaleLowerCase()
+        getComputerChoice()
+
+        console.log(playRound(playerOption, computerOption))
+    }
+}
+
+game()
