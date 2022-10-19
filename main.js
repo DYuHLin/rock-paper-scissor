@@ -23,35 +23,44 @@ function playRound(playerOption, computerOption){
 
     if(playerOption === "rock" && computerOption === "scissors"){
         playerScore += 1
+        console.log(playerScore + ":" + computerScore)
         return "You win! Rock beats Scissors"      
 
     } else if (playerOption === "rock" && computerOption === "paper"){
         computerScore += 1
+        console.log(playerScore + ":" + computerScore)
         return "You lose! Paper beats Rock"
 
     } else if (playerOption === "rock" && computerOption === "rock"){
+        console.log(playerScore + ":" + computerScore)
         return "Draw! Try again"
         
     } else if (playerOption === "scissors" && computerOption === "paper"){
         playerScore += 1
+        console.log(playerScore + ":" + computerScore)
         return "You win! Scissors beats Paper"
 
     } else if(playerOption === "scissors" && computerOption === "rock"){
         computerScore += 1
+        console.log(playerScore + ":" + computerScore)
         return "You lose! Rock beats Scissors"
 
     } else if (playerOption === "scissors" && computerOption === "scissors"){
+        console.log(playerScore + ":" + computerScore)
         return "Draw! Try again"
 
     } else if (playerOption === "paper" && computerOption === "rock"){
         playerScore += 1
+        console.log(playerScore + ":" + computerScore)
         return "You win! Paper beats Rock"
 
     } else if(playerOption === "paper" && computerOption === "scissors"){
         computerScore += 1
+        console.log(playerScore + ":" + computerScore)
         return "You lose! Scissors beats Paper"
         
     } else if (playerOption === "paper" && computerOption === "paper"){
+        console.log(playerScore + ":" + computerScore)
         return "Draw! Try again"
     }
 }
