@@ -11,3 +11,6 @@ https://www.flaticon.com/free-icons
 2. Files and folders icons created by Vector Stall - Flaticon
 
 3. Scissors icons created by Freepik - Flaticon
+
+# Live
+https://dyuhlin.github.io/rock-paper-scissor/
