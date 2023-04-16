@@ -67,6 +67,10 @@ button{
     padding: 10px 15px;
 }
 
+h1{
+    padding-left: 16px;
+}
+
 .icon{
     width: 40px;
 }
@@ -77,25 +81,25 @@ button:hover{
 
 .outcome{
     font-size: 25px;
+    margin-bottom: 26px;
 }
 
 .score{
     font-size: 25px;
 }
 
-.footer{
+.header{
     display: flex;
     align-items: center;
-    bottom: 0;
-    left: 0;
-    right: 0;
     width: 100%;
     height: 80px;
+    justify-content: space-between;
     background-color: #379683;
+    margin-bottom: 26px;
 }
 
 .foot__content{
-    padding-left: 16px;
+    padding-right: 16px;
     font-size: 25px;
 }
 
